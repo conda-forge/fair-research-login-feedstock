@@ -20,11 +20,14 @@ requirements:
     - pip
   run:
     - python
+    - pip
     - globus-sdk
 
 test:
   imports:
     - fair_research_login
+  commands:
+    - pip check
 
 about:
   home: https://github.com/fair-research/native-login

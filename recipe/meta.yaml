@@ -1,5 +1,5 @@
 {% set name = "fair-research-login" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75f61c2b6736e6a049fe541f6d72ef952f91b8901330d52b05e8bff57a976a84
+  sha256: f9579242ed916ce5f0f61d05790d9dfaea79ded106a9d424393471846972cd87
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Provides Native App login and token storage for multiple providers'
+  summary: Provides Native App login and token storage for multiple providers
 
   description: |
     This package makes writing Globus scripts and clients a 

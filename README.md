@@ -5,9 +5,13 @@ Home: https://github.com/fair-research/native-login
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fair-research-login-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides Native App login and token storage for multiple providers
+
+Development: https://github.com/fair-research/native-login
+
+Documentation: https://github.com/fair-research/native-login
 
 This package makes writing Globus scripts and clients a
 breeze! Easily setup token management and local server

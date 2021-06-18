@@ -1,5 +1,5 @@
 {% set name = "fair-research-login" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9579242ed916ce5f0f61d05790d9dfaea79ded106a9d424393471846972cd87
+  sha256: 6121dde9607ad957808cef31d37c22f26a3494aa9fce65812b095266a89738a0
 
 build:
   noarch: python

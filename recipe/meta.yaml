@@ -16,11 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
-    - pip
+    - python >=3.6
     - globus-sdk
 
 test:
@@ -28,6 +27,8 @@ test:
     - fair_research_login
   commands:
     - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/fair-research/native-login

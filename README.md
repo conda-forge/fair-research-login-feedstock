@@ -1,11 +1,11 @@
-About fair-research-login
-=========================
+About fair-research-login-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fair-research-login-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fair-research/native-login
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fair-research-login-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides Native App login and token storage for multiple providers
 
